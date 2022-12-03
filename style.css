@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: LightGray;
+}
+
+#content {
+    width: 1000px;
+    margin: 40px auto;
+}
+
+#szubienica {
+    width: 495px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#szubienica img {
+    width: 495px;
+}
+
+#litery {
+    width: 495px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#litery div {
+    display: inline-block;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid LightGray;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#litery div:hover {
+    color: white;
+    border: 2px solid white;
+    background: #222222;
+}
+
+#haslo {
+    font-size: 60px;
+    margin: 50px 0;
+    text-align: center;
+}
